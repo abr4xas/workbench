@@ -54,8 +54,8 @@ cd B2G
 git pull
 ### Sincronizamos
 ./repo sync
-### Para evitar un posible error que no pueda verificar la clave pública 
-### Hacemos li siguiente:
+### Para evitar un posible error que no pueda verificar la clave pública hacemos lo siguiente:
+### Fuente: http://gnulinuxvagos.es/topic/2090-compilandoinstalando-la-última-versión-de-firefox-os-para-el-zte-open/
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ./repo
 chmod a+w repo
 		echo "#################################################################"
