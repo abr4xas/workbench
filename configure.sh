@@ -13,11 +13,10 @@ fi
 
 dpkg --add-architecture i386
 apt-get update
-apt-get -y install packagename:i386
-apt-get -y install cmake autoconf2.13 bison bzip2 ccache curl flex gawk gcc g++ g++-multilib gcc-4.6 g++-4.6 g++-4.6-multilib git ia32-libs lib32ncurses5-dev lib32z1-dev libgl1-mesa-dev libx11-dev make zip libusb-1.0-0 libusb-1.0-0-dev zlib1g-dev:i386
+apt-get -y install cmake autoconf2.13 bison bzip2 ccache curl flex gawk gcc g++ g++-multilib gcc-4.6 g++-4.6 g++-4.6-multilib git lib32ncurses5 lib32z1-dev libgl1-mesa-dev libx11-dev make zip libusb-1.0-0 libusb-1.0-0-dev zlib1g-dev:i386
 export CC=gcc-4.6
 export CXX=g++-4.6
-ccache –max-size 3GB
+ccache --max-size 3GB
 echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", MODE="0666", GROUP="plugdev"' > /etc/udev/rules.d/android.rules
 echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", MODE="0666", GROUP="plugdev"' >> /etc/udev/rules.d/android.rules
 chmod a+r /etc/udev/rules.d/android.rules
