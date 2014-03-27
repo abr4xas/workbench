@@ -34,7 +34,7 @@ if [[ $continuar = Y ]]; then
 		echo "#################################################################"
 		echo "#    Instalando las herramientas ADB (android debug bridge)    ##"
 		echo "#################################################################"
-		
+
 apt-get update
 apt-get -y install android-tools-adb android-tools-fastboot
 
@@ -62,7 +62,7 @@ chmod a+w repo
 fi
 
 if [[ $continuar != Y || $continuar != N]]; then
-	echo "#################################################################"
-	echo "#    Instalando las herramientas ADB (android debug bridge)    ##"
-	echo "#################################################################"
+	echo "#################################################################################################"
+	echo "#    Debes indicar si deseas continuar seleccionando Y/N o cancelar todo el proceso con Ctrl+C ##"
+	echo "#################################################################################################"
 fi		
