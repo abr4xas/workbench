@@ -15,7 +15,7 @@ dpkg --add-architecture i386
 ### Actualizamos
 apt-get update
 ### Solicitamos la instalación de los paquetes
-apt-get -y install cmake autoconf2.13 bison bzip2 ccache curl flex gawk gcc g++ g++-multilib gcc-4.6 g++-4.6 g++-4.6-multilib git lib32ncurses5 lib32z1-dev libgl1-mesa-dev libx11-dev make zip libusb-1.0-0 libusb-1.0-0-dev zlib1g-dev:i386
+apt-get -y install git cmake autoconf2.13 bison bzip2 ccache curl flex gawk gcc g++ g++-multilib gcc-4.6 g++-4.6 g++-4.6-multilib git lib32ncurses5 lib32z1-dev libgl1-mesa-dev libx11-dev make zip libusb-1.0-0 libusb-1.0-0-dev zlib1g-dev:i386
 ### Usaremos GCC 4.6 ya que > a eso da problemas
 export CC=gcc-4.6
 export CXX=g++-4.6
