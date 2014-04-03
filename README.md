@@ -14,10 +14,13 @@ Simplemente en nuestra consola como ROOT ejecutamos:
 	./configure.sh
 ```
 
-Luego, ejecutamos
+Luego, ejecutamos sin ser ROOT:
 
 ```bash
         ./b2g.sh
 ```
 Para automatizar el proceso de clonación, actualización y sincronización del repo B2G.
 
+## NOTA
+
+Recuerden que hay que colocar permisos de ejecución a los archivos para que puedan funcionar ;)
