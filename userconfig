@@ -1,0 +1,36 @@
+# Branch
+BRANCH=master
+ 
+# Development
+#export B2G_DEBUG=1 # Debug Build
+#export B2G_NOOPT=1 # Disable Optimizer
+#export NOFTU=1 # Disable First Time User Experience
+#export DEVICE_DEBUG=1 # Enable gaia developer mode
+ 
+# bootlogo
+export ENABLE_DEFAULT_BOOTANIMATION=true
+ 
+# Make Official Branding Build
+export MOZILLA_OFFICIAL=1
+export PRODUCTION=1
+export GAIA_APP_TARGET=production
+export GAIA_INSTALL_PARENT=/system/b2g
+export PRESERVE_B2G_WEBAPPS=0
+export B2G_SYSTEM_APPS=1
+ 
+## Gaia
+export LOCALE_BASEDIR=$(pwd)/gaia-l10n
+export LOCALES_FILE=$(pwd)/gaia-l10n/languages_dev.json
+#export GAIA_DEFAULT_LOCALE=es
+export REMOTE_DEBUGGER=1
+export GAIA_KEYBOARD_LAYOUTS=de,el,en,es,fr,hu,it,pl,pt-BR,ru
+export GAIA_DISTRIBUTION_DIR=/home/abr4xas/B2G
+ 
+## Gecko
+export L10NBASEDIR="/home/abr4xas/B2G/gecko-l10n"
+export MOZ_CHROME_MULTILOCALE="es-ES"
+export PATH="$PATH:$(pwd)/compare-locales/scripts"
+export PYTHONPATH="$(pwd)/compare-locales/lib"
+ 
+# Fota
+B2G_FOTA_DIRS="system/b2g system/xbin"
