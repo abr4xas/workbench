@@ -45,7 +45,22 @@ export L10NBASEDIR="/home/usuario/B2G/gecko-l10n"
 ```
 Donde: usuario es, obviamente tu nombre de usuario y listo.
 
+## vegnuxmod.sh
+
+Luego de darle permisos de ejecución:
+
+```bash
+./vegnuxmod.sh
+```
+NO USAR AUN.
+
 
 ## NOTA
 
 Recuerden que hay que colocar permisos de ejecución a los archivos para que puedan funcionar ;)
+
+Aun en desarrollo, pronto anunciaré una versión estable de estos script 
+
+## Licencia de uso
+
+GPL v2
