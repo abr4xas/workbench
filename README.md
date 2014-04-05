@@ -11,22 +11,22 @@ Script para preparar el entorno para compilar una ROM para Firefox OS [DEBIAN]
 Simplemente en nuestra consola como ROOT ejecutamos:
 
 ```bash
-	./configure.sh
+./configure.sh
 ```
 
 Luego, ejecutamos sin ser ROOT:
 
 ```bash
-        ./b2g.sh
+./b2g.sh
 ```
 Para automatizar el proceso de clonación, actualización y sincronización del repo B2G.
 
 ## userconfig
 
-Este archivo debe ir dento de B2G/ 
+Este archivo debe ir dentro de B2G/ 
 
 ```bash
-        .userconfig
+.userconfig
 ```
 
 Ahí ya tiene todas las variables de entorno necesarias para compilar nuestra ROM.
