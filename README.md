@@ -45,6 +45,16 @@ export L10NBASEDIR="/home/usuario/B2G/gecko-l10n"
 ```
 Donde: usuario es, obviamente tu nombre de usuario y listo.
 
+## Inari
+
+Para iniciar el proceso de creación de la ROM para el ZTE Open (inari) debemos hacer lo siguiente:
+
+```bash
+./config.sh inari
+```
+Esto va a tardar un poco dependiendo la conexión que tengamos contratada ;)
+Esperamos que termine y luego seguimos con el siguiente paso.
+
 ## vegnuxmod.sh
 
 Luego de darle permisos de ejecución:
@@ -56,6 +66,8 @@ NO USAR AUN.
 
 
 ## NOTA
+
+Funciona para debian estable. :)
 
 Recuerden que hay que colocar permisos de ejecución a los archivos para que puedan funcionar ;)
 
