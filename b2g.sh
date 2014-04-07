@@ -7,7 +7,7 @@ echo " "
 echo "         Obteniendo las fuentes de B2G           "
 echo " "
 ### You will need to increase Git’s HTTP buffer by setting the git config var 
-echo "git config http.postBuffer 524288000" >> ~/.gitconfig
+echo "git config --global http.postBuffer 5242880000" >> ~/.gitconfig
 ### Clonamos el repo
 git clone https://github.com/mozilla-b2g/B2G.git
 cd B2G
