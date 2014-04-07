@@ -1,13 +1,10 @@
 #!/bin/bash
-#
 # Script para preparar el entorno para compilar una ROM para Firefox OS
 # Developed by abr4xas <me@abr4xas.org>
 
 echo " "
 echo "         Obteniendo las fuentes de B2G           "
 echo " "
-### You will need to increase Git’s HTTP buffer by setting the git config var 
-echo "git config http.postBuffer 524288000" >> ~/.gitconfig
 ### Clonamos el repo
 git clone https://github.com/mozilla-b2g/B2G.git
 cd B2G
@@ -18,9 +15,9 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ./repo
 chmod a+w repo
 ### Para actualizar el repo local al commit más nuevo.
 git pull
-        echo " "
-        echo "              Finalizado                        "
-        echo "              Happy Hacking!                    "
-        echo "                    :)                          "
-        echo " "
+echo " "
+echo "              Finalizado                        "
+echo "              Happy Hacking!                    "
+echo "                    :)                          "
+echo " "
 exit 0
