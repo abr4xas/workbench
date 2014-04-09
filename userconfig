@@ -34,3 +34,7 @@ export PYTHONPATH="$(pwd)/compare-locales/lib"
  
 # Fota
 B2G_FOTA_DIRS="system/b2g system/xbin"
+
+#Changing the default host compiler
+export CC=gcc-4.6
+export CXX=g++-4.6
