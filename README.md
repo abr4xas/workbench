@@ -47,7 +47,7 @@ Donde: usuario es, obviamente tu nombre de usuario y listo.
 
 ## Inari
 
-Para iniciar el proceso de creación de la ROM para el ZTE Open (inari) debemos hacer lo siguiente:
+Para iniciar el proceso de creación (UNICAMENTE) de la ROM para el ZTE Open (inari) debemos hacer lo siguiente:
 
 ```bash
 ./config.sh inari
@@ -62,16 +62,13 @@ Luego de darle permisos de ejecución:
 ```bash
 ./vegnuxmod.sh
 ```
-NO USAR AUN.
 
+Este script va fuera de la carpeta ``` B2G ```
 
 ## NOTA
 
-Funciona para debian estable. :)
-
+Funciona para debian TESTING :)
 Recuerden que hay que colocar permisos de ejecución a los archivos para que puedan funcionar ;)
-
-Aun en desarrollo, pronto anunciaré una versión estable de estos script 
 
 ## Licencia de uso
 
