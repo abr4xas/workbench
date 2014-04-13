@@ -102,9 +102,9 @@ elif [[ "$1" = "--build" || "$1" = "-b" ]]; then
 	cd ${revision}
 	echo "** Starting building for ${revision}..."
 	./build.sh -j10 # build b2g
-	output="images-hamachi-${revision}-$(date +%Y%m%d)" # set output directory name
+	output="images-inari-${revision}-$(date +%Y%m%d)" # set output directory name
 	mkdir ../images/${output} # creates output directory name
-	cp out/target/product/hamachi/system.img ../images/${output}
+	cp out/target/product/inari/system.img ../images/${output}
 	cp -R ../images/skel/* ../images/${output}
 	cd ../images
 	tar cJvf ${output}.tar.xz ${output}
