@@ -107,7 +107,7 @@ elif [[ "$1" = "--build" || "$1" = "-b" ]]; then
 	cp out/target/product/inari/system.img ../images/${output}
 	cp -R ../images/skel/* ../images/${output}
 	cd ../images
-	tar cJvf ${output}.tar.xz ${output}
+	tar cJvf ${output}.tar.gz ${output}
 	cd ${workdir}
 done
 
