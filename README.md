@@ -1,4 +1,4 @@
-# workbench
+# workbench ![Status](https://api.travis-ci.org/abr4xas/workbench.svg) 
 
 ![Firefox OS](http://mozorg.cdn.mozilla.net/media/img/styleguide/identity/firefoxos/wordmark-standard-grey.png)
 
