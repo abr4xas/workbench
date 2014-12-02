@@ -1,4 +1,7 @@
-# workbench ![Status](https://api.travis-ci.org/abr4xas/workbench.svg) 
+# [D E P R E C A T E D]
+Usar bajo su responsabilidad.
+
+## workbench ![Status](https://api.travis-ci.org/abr4xas/workbench.svg) 
 
 ![Firefox OS](http://mozorg.cdn.mozilla.net/media/img/styleguide/identity/firefoxos/wordmark-standard-grey.png)
 
